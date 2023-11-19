@@ -117,17 +117,27 @@ textarea:not([rows]) {
 .image-container {
   width: 30%;
   margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 1rem;
 }
 .footer-links {
   display:flex;
   justify-content: center;
+  align-items: center;
 }
 .footer-img-container {
+  display:grid;
+  gap: 0.5rem;
   width: 5%;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  margin-top:0;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 .footer-img-container > a {
+  font-weight: var(--fw-700);
   text-decoration: none;
 }
 .card-container {
@@ -153,7 +163,7 @@ header {
   display: flex;
   align-items: center;
   border-radius: 1rem;
-  box-shadow: 1px 3px 4px var(--clr-dark-blue);
+  box-shadow: 0px 3px 4px;
 }
 h1 {
   font-size: 2.5rem;
@@ -167,6 +177,7 @@ button {
   background: none;
   border-radius: 1rem;
   padding: 0.5rem 0.6rem;
+  border:1px solid;
 }
 button:hover {
   background-color: var(--clr-dark-blue);
@@ -182,8 +193,18 @@ button:hover {
   filter:blur(0);
   transform: translateX(0);
 }
+/* dark mode styles */
+.dark {
+    background-color: var(--clr-dark-blue);
+    color: var(--clr-lightest-blue);
+  }
+.dark svg {
+  fill: var(--clr-lightest-blue);
+  stroke: var(--clr-lightest-blue);
+}
+
 :root {
-  --clr-dark-blue: hsl(203, 30%, 26%);
+  --clr-dark-blue: hsl(210, 3%, 15%);
   --clr-light-blue: hsl(206, 46%, 37%);
   --clr-lightest-blue: hsl(174, 100%, 96%);
   --ff: 'Poppins',sans-serif;
