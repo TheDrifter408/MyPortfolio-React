@@ -1,0 +1,2 @@
+# React + Vite
+A recreation of my portfolio done in React, I had an introduction to to the useRef and useEffect hooks that I needed to use to implement the slide animation features. Relevant comments are given in the .jsx files to explain how IntersectionObserver API was used to implement the slide in animations.

@@ -1,0 +1,66 @@
+[   { 
+        "id": "greeting",
+        "img":[
+            {
+                "id":"greeting-image-1", 
+                "src":"/pencil-svg.svg"
+            },
+            {
+                "id":"greeting-image-2",
+                "src":"/scribble-svg.svg"
+            }
+        ],
+        "heading":"Hi, My Name Is",
+        "paragrah":"Noor Ullah Al Noor"
+    },
+    {   "id": "career",
+        "img":[ 
+            {   
+                "id":"career-image-1",
+                "src":"/computer-setting.svg"
+            }
+            ],
+        "heading":"Career",
+        "paragraph": "I'm currently studying front end web development, diving in technologies like react,vue and svelte and soon plan to enter fullstack development down the line."
+    },
+    {   "id":"education",
+        "img":[
+            {
+                "id":"education-image-1",
+                "src":"/education-svg.svg"
+            }
+        ],
+        "heading":"Education",
+        "paragraph": "My school is DPS STS from which I completed my O levels and A levels. I graduated in 2020 and then enrolled into Independent University, Bangladesh around October of 2020 during the pandemic's full swing."
+    },
+    {
+        "id":"loveDoing",
+        "img":[
+            {
+                "id":"loveDoing-image-1",
+                "src":"/ux-design-svg.svg"
+            }
+        ],
+        "heading":"What I love doing",
+        "paragraph":"Currently I discovered I love designing websites, everything from color to the font-families used to maintain typography. Nothing is more satisfying than seeing a website animate to get ready for interactivity."
+    },
+    {
+        "id":"skills",
+        "img":[
+            {
+                "id":"skills-image-1",
+                "src":"/skills-html.svg"
+            },
+            {
+                "id":"skills-image-2",
+                "src":"/skills-js.svg"
+            },
+            {
+                "id":"skills-image-3",
+                "src":"/skills-react.svg"
+            }
+        ],
+        "heading":"My Skills",
+        "paragraph":"I am proficient in HTML, CSS, NodeJS and currently dipping my toes into React."
+    }
+]
